@@ -6,7 +6,7 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     private Rigidbody m_Rigidbody;
-
+    	
     void Start()
     {
         m_Rigidbody = GetComponent<Rigidbody>();
